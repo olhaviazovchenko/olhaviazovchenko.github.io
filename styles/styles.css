@@ -135,4 +135,21 @@ address {
   justify-content: space-between;
 }
 
+.btn {
+  display: inline-block;
+  margin-right: 12px;
+  padding: 12px 24px;
+  border: 1px solid;
+  border-radius: 8px;
+  color: #000;
+  text-decoration: none;
+  transition: all .5s ease;
+}
+
+.btn:hover {
+  background-color: #000;
+  color: #fff;
+  transition: all .5s ease;
+}
+
 /* ----- End of Global styles ------ */
